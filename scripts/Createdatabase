@@ -1,0 +1,14 @@
+Create database and Schema.
+
+-- script create a database
+Create database DataWarehouse;
+
+
+---script creating the schema
+use DataWarehouse;
+
+Create SCHEMA bronze;
+
+Create SCHEMA Silver;
+
+Create SCHEMA Gold;
